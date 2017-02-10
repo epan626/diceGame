@@ -13,6 +13,12 @@ class MainViewController: UIViewController {
     
     // Global Variables ::::::::::::::::::::::::::::::::::::::
     var motionManager: CMMotionManager?
+    var motionManager: CMMotionManager?
+    
+    var initialY: Double?
+    var initialVel = 0.00
+    var timeToReachMaxHeight = 0.00
+    var positionY = [Double]()
     
     var results = [String]()
     var game = [Array<Int>]()
@@ -143,6 +149,24 @@ class MainViewController: UIViewController {
                     let attitude = data.userAcceleration
 //                    print(attitude)
 //                    print("pitch: \(attitude.pitch) ----- roll: \(attitude.roll) ----- yaw: \(attitude.yaw)")
+                    if var nextY = self.initialY {
+                        print(nextY)
+                        nextY = attitude.y
+                        if ((nextY - self.initialY!) > 2) {
+                            self.initialVel = nextY - self.initialY!
+                            self.timeToReachMaxHeight = self.initialVel/(9.81*2)
+                            for timeUp in 0...Int(self.timeToReachMaxHeight) {
+                               self.positionY.append(self.initialVel * Double(timeUp))
+                            }
+                            for timeDown in (0...Int(self.timeToReachMaxHeight)).reversed() {
+                                self.positionY.append(self.initialVel * Double(timeDown))
+                            }
+//                            Do function to animate down here. We have time from 0 and up, and position at time 0 and up. OR positionY(t)
+                        }
+                    }
+                    else {
+                        self.initialY = attitude.y
+                    }
                 }
                 
             })
