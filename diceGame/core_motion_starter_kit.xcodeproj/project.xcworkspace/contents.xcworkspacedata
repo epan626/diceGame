@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:diceGame.xcodeproj">
+      location = "self:core_motion_starter_kit.xcodeproj">
    </FileRef>
 </Workspace>

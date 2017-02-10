@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07803F331E4E46890026047A"
-               BuildableName = "diceGame.app"
-               BlueprintName = "diceGame"
-               ReferencedContainer = "container:diceGame.xcodeproj">
+               BlueprintIdentifier = "F194F78F1E4D2EDB0083FF96"
+               BuildableName = "core_motion_starter_kit.app"
+               BlueprintName = "core_motion_starter_kit"
+               ReferencedContainer = "container:core_motion_starter_kit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07803F471E4E46890026047A"
-               BuildableName = "diceGameTests.xctest"
-               BlueprintName = "diceGameTests"
-               ReferencedContainer = "container:diceGame.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07803F521E4E46890026047A"
-               BuildableName = "diceGameUITests.xctest"
-               BlueprintName = "diceGameUITests"
-               ReferencedContainer = "container:diceGame.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07803F331E4E46890026047A"
-            BuildableName = "diceGame.app"
-            BlueprintName = "diceGame"
-            ReferencedContainer = "container:diceGame.xcodeproj">
+            BlueprintIdentifier = "F194F78F1E4D2EDB0083FF96"
+            BuildableName = "core_motion_starter_kit.app"
+            BlueprintName = "core_motion_starter_kit"
+            ReferencedContainer = "container:core_motion_starter_kit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,12 +55,19 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07803F331E4E46890026047A"
-            BuildableName = "diceGame.app"
-            BlueprintName = "diceGame"
-            ReferencedContainer = "container:diceGame.xcodeproj">
+            BlueprintIdentifier = "F194F78F1E4D2EDB0083FF96"
+            BuildableName = "core_motion_starter_kit.app"
+            BlueprintName = "core_motion_starter_kit"
+            ReferencedContainer = "container:core_motion_starter_kit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,10 +81,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07803F331E4E46890026047A"
-            BuildableName = "diceGame.app"
-            BlueprintName = "diceGame"
-            ReferencedContainer = "container:diceGame.xcodeproj">
+            BlueprintIdentifier = "F194F78F1E4D2EDB0083FF96"
+            BuildableName = "core_motion_starter_kit.app"
+            BlueprintName = "core_motion_starter_kit"
+            ReferencedContainer = "container:core_motion_starter_kit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

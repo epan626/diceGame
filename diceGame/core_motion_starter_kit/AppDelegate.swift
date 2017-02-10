@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  diceGame
+//  core_motion_starter_kit
 //
-//  Created by Eric Pan on 2/10/17.
-//  Copyright © 2017 Eric Pan. All rights reserved.
+//  Created by Andy Feng on 2/9/17.
+//  Copyright © 2017 Andy Feng. All rights reserved.
 //
 
 import UIKit

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>diceGame.xcscheme</key>
+		<key>core_motion_starter_kit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>07803F331E4E46890026047A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>07803F471E4E46890026047A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>07803F521E4E46890026047A</key>
+		<key>F194F78F1E4D2EDB0083FF96</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -5,11 +5,12 @@
 //  Created by Andy Feng on 2/9/17.
 //  Copyright © 2017 Andy Feng. All rights reserved.
 //
+
 import UIKit
 import CoreMotion
 
 class MainViewController: UIViewController {
-    
+
     // Global Variables ::::::::::::::::::::::::::::::::::::::
     var motionManager: CMMotionManager?
     
@@ -27,13 +28,13 @@ class MainViewController: UIViewController {
         } else {
             print("No manager")
         }
-        
+ 
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
+
     
     // Helper Functions ::::::::::::::::::::::::::::::::::::::::::
     func detectMotion(manager: CMMotionManager) {
@@ -50,7 +51,7 @@ class MainViewController: UIViewController {
             let myq = OperationQueue()
             
             // Customize the update interval (seconds)
-            manager.deviceMotionUpdateInterval = 0.1
+            manager.deviceMotionUpdateInterval = 1.0
             
             
             // Now we can start our updates, send it to our custom queue, and define a completion handler
@@ -64,14 +65,25 @@ class MainViewController: UIViewController {
                 }
                 
             })
-            
+ 
         }
     }
     
     
     
+
     
     
-    
-    
+
 }
+
+
+
+
+
+
+
+
+
+
+
